@@ -64,14 +64,14 @@ body {
   height: 358px;
   position: absolute;
   left: 65px;
-  top: 261px;
+  top: 160px;
   border-radius: 5px;
 }
 
 .view-invitation-btn {
   position: absolute;
   left: 123px;
-  top: 725px;
+  top: 625px;
   width: 160px;
   height: 53px;
   background: #fcfffd;
