@@ -47,6 +47,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 10px;
 }
 
 .hebrew-sentence img {
@@ -124,7 +126,7 @@ body {
   color: #80b193;
   font-size: 14px;
   position: absolute;
-  right: 25px;
+  left: 160px;
   top: -10px;
 }
 
