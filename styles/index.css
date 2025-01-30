@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Ruthligos';
-  src: url(./fonts/Ruthligos.ttf);
+  src: url(/fonts/Ruthligos.ttf);
 }
 
 /* Configuration pour mobile uniquement */
@@ -76,9 +76,10 @@ body {
   height: 53px;
   background: #fcfffd;
   border: 2px solid #c0e0cd;
+  border-radius: 15px;
   color: #e8a15b;
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-family: var(--font-decorative);
+  font-size: 20px;
   text-align: center;
 }
 
@@ -247,7 +248,7 @@ body {
 
 .form-group label {
   color: var(--color-primary);
-  font-size: 18px;
+  font-size: 22px;
   display: block;
   margin-bottom: 8px;
   font-family: var(--font-decorative);
@@ -340,6 +341,7 @@ textarea:invalid {
 input::placeholder,
 textarea::placeholder {
   font-family: var(--font-decorative);
+  font-size: 18px;
 }
 
 input:required:valid,
