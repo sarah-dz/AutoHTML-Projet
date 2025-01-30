@@ -94,7 +94,16 @@
             </div>
 
             <!-- Formulaire RSVP -->
-            <form class="rsvp-form" action="/submit-rsvp" method="POST" data-netlify="true">
+            <form 
+                class="rsvp-form" 
+                name="rsvp"
+                method="POST" 
+                data-netlify="true"
+                data-netlify-success-url="/thanks.html">
+                <input type="hidden" name="form-name" value="rsvp"
+            >
+
+            <input type="hidden" name="form-name" value="rsvp">
               <div class="form-logo">
                   <img src="logo0.png" alt="Logo du mariage" />
               </div>
