@@ -395,7 +395,7 @@ textarea:required:valid {
 
 .address {
   color: var(--color-primary);
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 18px;
 }
 
@@ -411,21 +411,30 @@ textarea:required:valid {
 }
 
 .map img {
-  width: 201px;
+  width: 216px;
   height: 131px;
   object-fit: cover;
+  border-radius: 10px;
+}
+
+.map-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
 }
 
 .waze-btn {
-  width: 99px;
+  width: 100px;
   height: 27px;
   background: #bddcc9;
   border-radius: 7px;
   color: white;
   font-size: 24px;
   display: block;
-  margin: 16px auto;
   line-height: 27px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Footer */
