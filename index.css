@@ -1,11 +1,13 @@
 :root {
-  --color-primary: #80b193;
+  --color-primary: #77c294;
   --color-secondary: #e8a15b;
   --color-background: #fafcfa;
   --color-border: #c0e0cd;
   --font-decorative: 'Alex Brush', cursive;
   --font-secondary: 'Ruthligos', cursive;
 }
+
+/* #80b193 */
 
 @font-face {
   font-family: 'Ruthligos';
@@ -118,13 +120,13 @@ body {
 
 .family-zaoui p, 
 .family-journo-group p {
-  color: #80b193;
+  color: var(--color-primary);
   font-size: 14px;
   margin-bottom: 8px;
 }
 
 .hebrew-text {
-  color: #80b193;
+  color: var(--color-primary);
   font-size: 14px;
   position: absolute;
   left: 160px;
@@ -140,7 +142,7 @@ body {
 
 .announcement-text {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 /* Noms des mariés */
@@ -162,37 +164,37 @@ body {
 
 .date {
   color: #e8a15b;
-  font-size: 24px;
+  font-size: 23px;
   margin-bottom: 8px;
 }
 
 .hebrew-date {
-  color: #80b193;
-  font-size: 16px;
+  color: var(--color-primary);
+  font-size: 20px;
   margin-bottom: 24px;
 }
 
 .ceremony-time {
   color: #e8a15b;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 8px;
 }
 
 .venue {
-  color: #80b193;
-  font-size: 20px;
+  color: var(--color-primary);
+  font-size: 23px;
   margin-bottom: 16px;
 }
 
 .reception {
   color: #e8a15b;
-  font-size: 20px;
-  margin-bottom: 24px;
+  font-size: 22px;
+  margin-bottom: 8px;
 }
 
 /* Message mémorial */
 .memorial-message {
-  color: #80b193;
+  color: var(--color-primary);
   font-size: 16px;
   text-align: center;
   padding: 0 20px;
@@ -292,6 +294,7 @@ body {
   cursor: pointer;
 }
 
+
 .radio-text {
   font-size: 16px;
 }
@@ -341,7 +344,7 @@ textarea:invalid {
 input::placeholder,
 textarea::placeholder {
   font-family: var(--font-decorative);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 input:required:valid,
@@ -400,7 +403,7 @@ textarea:required:valid {
 }
 
 .address-hebrew {
-  color: #80b193;
+  color: var(--color-primary);
   font-family: "LtPerfume-Regular", var(--font-decorative);
   font-size: 13px;
   margin-top: 8px;
