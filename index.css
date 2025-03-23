@@ -141,7 +141,7 @@ body {
 }
 
 .announcement-text {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 23px;
 }
 
@@ -151,14 +151,14 @@ body {
   font-family: var(--font-secondary);
   font-size: 40px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 0px;
   
 }
 
 /* Détails du mariage */
 .wedding-details {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -189,13 +189,13 @@ body {
 .reception {
   color: #e8a15b;
   font-size: 22px;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 /* Message mémorial */
 .memorial-message {
   color: var(--color-primary);
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   padding: 0 20px;
   line-height: 1.4;
